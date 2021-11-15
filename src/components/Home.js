@@ -1,0 +1,15 @@
+import React from "react";
+import Card from "./Card";
+import Header from "./Header";
+import "./home.css";
+
+const Home = () => {
+  return (
+    <div>
+      <Header />
+      <Card />
+    </div>
+  );
+};
+
+export default Home;

@@ -1,0 +1,31 @@
+.search_container {
+  width: 100%;
+  position: fixed;
+  top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.search_container input {
+  outline: none;
+  border: 1px solid rgb(206, 200, 200);
+
+  border-radius: 5px;
+  width: 50%;
+  padding: 15px;
+  font-size: medium;
+  background-color: inherit;
+}
+
+.search_container button {
+  outline: none;
+  background: inherit;
+  border: none;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 15px;
+  top: 15px;
+  left: -30px;
+  cursor: pointer;
+  color: whitesmoke;
+}
