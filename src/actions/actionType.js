@@ -1,0 +1,9 @@
+export const ALL_CARD_REQUEST = "ALL_CARD_REQUEST";
+export const ALL_CARD_SUCCESS = "ALL_CARD_SUCCESS";
+export const ALL_CARD_FAIL = "ALL_CARD_FAIL";
+
+export const LOAD_MORE_REQUEST = "LOAD_MORE_REQUEST";
+export const LOAD_MORE_SUCCESS = "LOAD_MORE_SUCCESS";
+export const LOAD_MORE_FAIL = "LOAD_MORE_FAIL";
+
+export const CLEAR_ERROR = "LEAR_ERROR";

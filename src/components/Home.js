@@ -1,13 +1,15 @@
 import React from "react";
-import Card from "./Card";
+
+import CardList from "./CardList";
 import Header from "./Header";
+
 import "./home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="main">
       <Header />
-      <Card />
+      <CardList />
     </div>
   );
 };

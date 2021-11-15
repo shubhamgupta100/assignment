@@ -1,0 +1,17 @@
+.loadmore_container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+}
+.loadmore_container button {
+  background: none;
+  outline: none;
+  border: none;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 1.4em;
+  margin-bottom: 2em;
+  cursor: pointer;
+}

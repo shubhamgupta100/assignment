@@ -1,80 +1,14 @@
 import React from "react";
-import laptop from "../images/laptop.jpeg";
 import "./card.css";
 
-const Card = () => {
+const Card = ({ imageURL, cardTitle }) => {
   return (
-    <div className="card_container">
-      <div className="card">
-        <div className="image">
-          <img src={laptop} />
-        </div>
-        <div className="title">
-          <p>This is the image</p>
-        </div>
+    <div className="card">
+      <div className="image">
+        <img src={imageURL} alt={cardTitle} />
       </div>
-
-      <div className="card">
-        <div className="image">
-          <img src={laptop} />
-        </div>
-        <div className="title">
-          <p>This is the image</p>
-        </div>
-      </div>
-
-      <div className="card">
-        <div className="image">
-          <img src={laptop} />
-        </div>
-        <div className="title">
-          <p>This is the image</p>
-        </div>
-      </div>
-
-      <div className="card">
-        <div className="image">
-          <img src={laptop} />
-        </div>
-        <div className="title">
-          <p>This is the image</p>
-        </div>
-      </div>
-
-      <div className="card">
-        <div className="image">
-          <img src={laptop} />
-        </div>
-        <div className="title">
-          <p>This is the image</p>
-        </div>
-      </div>
-
-      <div className="card">
-        <div className="image">
-          <img src={laptop} />
-        </div>
-        <div className="title">
-          <p>This is the image</p>
-        </div>
-      </div>
-
-      <div className="card">
-        <div className="image">
-          <img src={laptop} />
-        </div>
-        <div className="title">
-          <p>This is the image</p>
-        </div>
-      </div>
-
-      <div className="card">
-        <div className="image">
-          <img src={laptop} />
-        </div>
-        <div className="title">
-          <p>This is the image</p>
-        </div>
+      <div className="title">
+        <p>{cardTitle}</p>
       </div>
     </div>
   );

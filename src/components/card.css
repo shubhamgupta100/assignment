@@ -1,15 +1,6 @@
-.card_container {
-  width: 90%;
-  position: relative;
-  margin: auto;
-  top: 130px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap !important;
-}
 .card {
-  width: 22%;
-  margin-bottom: 15px;
+  width: 20%;
+  margin-bottom: 60px;
   padding: 0;
   background-color: #fff !important;
   border: 1px solid whitesmoke;
@@ -17,12 +8,15 @@
 }
 .card img {
   width: 100%;
+  height: 200px;
+  border-radius: 5px;
 }
 .title {
-  width: 100%;
-  padding: 20px;
+  width: 90%;
   display: flex;
   justify-content: center;
+  position: relative;
+  margin: auto;
 }
 .title p {
   color: black;
