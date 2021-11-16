@@ -1,3 +1,9 @@
+## Deployed Link
+
+```bash
+  https://react-assignment-by-shubham.herokuapp.com/
+```
+
 ## Installation
 
 ```bash
