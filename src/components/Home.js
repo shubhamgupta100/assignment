@@ -1,7 +1,7 @@
 import React from "react";
 
-import CardList from "./CardList";
-import Header from "./Header";
+import CardList from "./Card/CardList";
+import Header from "./Header/Header";
 
 import "./home.css";
 

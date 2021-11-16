@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { getAllCard } from "../actions/cardAction";
+import { getAllCard } from "../../actions/cardAction";
 import "./header.css";
 
 const Header = () => {
